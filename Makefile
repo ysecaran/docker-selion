@@ -1,8 +1,8 @@
-NAME := selion
+NAME := ysecaran
 VERSION := $(or $(VERSION),$(VERSION),'1.0.0')
 PLATFORM := $(shell uname -s)
 
-all: hub chrome firefox
+all: hub chrome firefox release
 
 build: all
 
